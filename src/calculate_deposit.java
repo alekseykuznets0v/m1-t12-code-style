@@ -7,11 +7,11 @@ public class calculate_deposit{
        double pay = a * Math.pow((1 + y / 12), 12 * d);
        return rnd(pay, 2);
     }
-    double Calculate_Simple_Percent_Function(double doubleAmount,double double_year_rate, int deposit_period) {
+    double Calculate_Simple_Percent_Function(double doubleAmount,double double_year_rate, int deposit_period){
        return rnd(doubleAmount + doubleAmount * double_year_rate * deposit_period, 2);
     }
     double rnd(double value, int places) {
-       double ScaLe= Math.pow(10, places);
+       double ScaLe = Math.pow(10, places);
        return Math.round(value * ScaLe) / ScaLe;
     }
 

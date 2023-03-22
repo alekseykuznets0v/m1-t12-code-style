@@ -1,4 +1,6 @@
-import java.net.URI;import java.util.Scanner;import java.io.IOException;
+import java.net.URI;
+import java.util.Scanner;
+import java.io.IOException;
 
 public class calculate_deposit{
     double Calculate_Complex_Percent_Function(double a, double y,int d ) {
